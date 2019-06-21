@@ -2,3 +2,11 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+#navigator ul li:first-child {
+  border-left: 1px solid #ccc;
+}
+
+.nav-link.nav-link a {
+  color: #000 !important;
+}
