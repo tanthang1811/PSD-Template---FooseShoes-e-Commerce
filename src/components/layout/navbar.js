@@ -5,9 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartArrowDown, faStar } from "@fortawesome/free-solid-svg-icons";
 
 const NavLinkUL = styled.ul`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  ::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
 `;
 
 const NavLinkLI = styled.li`
