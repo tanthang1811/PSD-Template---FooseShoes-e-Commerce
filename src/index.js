@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Header from "./components/layout/header";
 import Navbar from "./components/layout/navbar";
 import Banner from "./components/layout/banner";
+import ProductNav from "./components/layout/product-nav";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./reset.css";
@@ -15,6 +16,7 @@ function App() {
         <Header />
         <Navbar />
         <Banner />
+        <ProductNav />
       </Router>
     </div>
   );
